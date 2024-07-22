@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[875],{5550:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/map2",function(){return _(914)}])},914:function(n,u,_){"use strict";_.r(u);var t=_(5893),e=_(3233);let c=()=>(0,t.jsx)(e.Z,{});u.default=c}},function(n){n.O(0,[260,955,866,371,281,233,774,888,179],function(){return n(n.s=5550)}),_N_E=n.O()}]);
