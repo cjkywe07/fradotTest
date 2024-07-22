@@ -1,0 +1,26 @@
+{
+    "homepage": "https://cjkywe07.github.io/FRADOTtest",
+    "name": "main",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "deploy": "rm -rf node_modules/.cache && next build && touch out/.nojekyll && git add -f out/ && git commit -m \"deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "antd": "^5.5.1",
+        "axios": "^1.4.0",
+        "gh-pages": "^6.1.1",
+        "i": "^0.3.7",
+        "next": "13.3.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-icons": "^4.8.0",
+        "react-kakao-maps-sdk": "^1.1.9"
+    }
+}
